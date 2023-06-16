@@ -1,0 +1,26 @@
+{
+  "name": "bloggin-site",
+  "version": "1.0.0",
+  "description": "Blog para materia de IHC e Front-End",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Matheus Inácio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "$schema": "./node_modules/@types/package.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Inacioal/Blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Matheus-Inacioal/Blog/issues"
+  },
+  "homepage": "https://github.com/Matheus-Inacioal/Blog#readme"
+}

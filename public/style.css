@@ -1,0 +1,102 @@
+/* Estilos para o cabeçalho e a navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #111980;
+  }
+
+  /* Estilos para o conteúdo principal */
+  .main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  article {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Estilos adicionais */
+  a:hover {
+    color: #fff;
+  }
+  
+  article:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+ 
+  .leia-mais {
+    display: inline-block;
+    background-color: #111980;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .leia-mais:hover {
+    background-color: #24568f;
+  }
+
+  article img {
+    width: 100%; /* Defina o valor desejado para a largura das imagens */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Garante que a imagem não tenha espaços em branco ao redor */
+  }
